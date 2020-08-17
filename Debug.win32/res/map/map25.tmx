@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="16" tileheight="16" infinite="0" nextobjectid="23">
+ <tileset firstgid="1" name="landform" tilewidth="16" tileheight="16" tilecount="36" columns="6">
+  <image source="landform.png" width="96" height="96"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="blank"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="blank"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" value="steel"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="type" value="steel"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="type" value="blank"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="type" value="blank"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="type" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="type" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="type" value="steel"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="type" value="steel"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="type" value="brick"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="type" value="brick"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="type" value="home"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="type" value="home"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="type" value="brick"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="type" value="brick"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="type" value="home"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="type" value="home"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="type" value="homeDestory"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="type" value="homeDestory"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="type" value="homeDestory"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="type" value="homeDestory"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="layer1" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztVssKwzAM82W9tGsLe/z/py4XgRGq45hSBptAOLSplBDHrtkfFdw7XGn+1rgXNB4dPknz1fimZxkN+GGdiH7scWucDva4CR3oI2KdiH7c8/Hfsg7vJwvlE8GfD5/BmT6j+lWfKs7yQZ5AL4rMyXSOKiBP5sZFROjNgovpHK3g28/nqvtztY+qTaM+qs5xPVC1SQF5paDqnK9vmb7Da1aIelC27/CaFaIe9MtYiSPInr/Ru2ievzNH/yFRT8r6QMdrfgC5IQ21
+  </data>
+ </layer>
+ <layer name="layer2" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztlOEKwCAIhIX2p73/A68fSRJ5tNkxaPtABAM96Urkh0UqcdRAtSi5xFkD1aIkafpRLUqWph/VZlitzev3RBui76dzWfto1rmsfTQz97GeZO5jPbnb/fTzV/HW+/kS1jOj/9o7u4v1zOi/9s6QZhas9+nNYftvV39fwqkC/Q==
+  </data>
+ </layer>
+ <objectgroup name="objLayer1">
+  <object id="2" name="heroBirthPlace1" x="144" y="400">
+   <properties>
+    <property name="type" value="place"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" name="enemyBirthPlace1" x="16" y="16">
+   <properties>
+    <property name="type" value="place"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="enemyBirthPlace2" x="208" y="16">
+   <properties>
+    <property name="type" value="place"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="6" name="enemyBirthPlace3" x="400" y="16">
+   <properties>
+    <property name="type" value="place"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" name="heroBirthPlace2" x="272" y="400">
+   <properties>
+    <property name="type" value="place"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="homePlace" x="208" y="400">
+   <properties>
+    <property name="type" value="place"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
